@@ -2,7 +2,7 @@
 	"name": "motiful",
 	"version": "4.0.2",
 	"description": "Discord selfbot built with discord.js",
-	"main": "./src/motiful",
+	"main": "motiful.js",
 	"dependencies": {
 		"axios": "^0.18.0",
 		"chalk": "^2.4.1",
@@ -16,7 +16,7 @@
 		"eslint": "^5.0.1"
 	},
 	"scripts": {
-		"test": "eslint src"
+		"start": "motiful.js"
 	},
 	"repository": {
 		"type": "git",
